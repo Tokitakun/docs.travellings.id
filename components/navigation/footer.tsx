@@ -21,19 +21,19 @@ export function Footer() {
       {Settings.branding !== false && (
         <div className="hidden items-center md:block">
           <Link
-            aria-label="Rubix Studios"
+            aria-label="Travellings.id"
             className="font-semibold"
-            href="https://rubixstudios.com.au"
+            href="https://nlfts.dev/"
             target="_blank"
-            title="Rubix Studios"
+            title="Travellings.id"
           >
             <Image
-              alt="Rubix Studios logo"
-              aria-label="Rubix Studios logo"
+              alt="Travellings.id logo"
+              aria-label="Travellings.id logo"
               height={30}
               priority={false}
               src="/logo.svg"
-              title="Rubix Studios logo"
+              title="Travellings.id logo"
               width={30}
             />
           </Link>
