@@ -7,7 +7,8 @@ export default function Home() {
     <section className="flex min-h-[86.5vh] flex-col items-center justify-center px-2 py-8 text-center">
       <h1 className="mb-4 text-4xl font-bold sm:text-7xl">Travellings.id</h1>
       <p className="mb-8 max-w-150 text-foreground sm:text-base">
-        Temukan berbagai website independen dari Indonesia dalam satu perjalanan digital. Satu klik, satu situs baru, satu perjalanan baru.
+        Temukan berbagai website independen dari Indonesia dalam satu perjalanan digital. Satu klik,
+        satu situs baru, satu perjalanan baru.
       </p>
 
       <div className="flex items-center gap-5">
