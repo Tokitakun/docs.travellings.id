@@ -1,81 +1,76 @@
 ---
-title: Introduction
-description: This section provides an overview of how to get started with the Documents, Next.js Document Starter Kit.
-keywords: ["introduction", "guide", "nextjs", "documents"]
+title: "Introduction"
+description: "Fondasi brand Travellings.id: Latar belakang, masalah yang direspons, dan posisi kami dalam ekosistem developer Indonesia."
+keywords: ["travellings", "indonesia", "nlfts", "brand identity", "developer community"]
 ---
 
-![Banner](/images/banner.png "Documents")
+![Banner](/images/banner.png "Travellings.id")
 
-## Documents
+## Fondasi Brand
 
-**Documents** is a lightweight, modular starter kit built with **Next.js**, **React**, **Tailwind CSS**, and **TypeScript**. It’s designed to help you 
-launch structured, professional documentation without spending time on boilerplate.
-
-Whether you're building product manuals, internal systems guides, or dev documentation, Documents gives you a clean foundation that’s easy to 
-extend and maintain.
+Bagian ini menguraikan latar belakang, masalah yang mendasari kelahiran Travellings.id, serta posisi strategis kami dalam ekosistem developer Indonesia.
 
 <CardGrid>
   <Card
-    subtitle="Instructions"
-    title="Installation"
-    description="Follow the quick start guide to install Documents and get up and running."
-    href="/docs/basic-setup/installation"
+    subtitle="Latar Belakang"
+    title="Masalah yang Direspons"
+    description="Mengapa identitas digital developer Indonesia perlu didesentralisasi dari platform besar?"
+    href="#11-masalah-yang-direspons"
   />
   <Card
-    subtitle="Setup"
-    title="Site Settings"
-    description="Configure your project layout, metadata, and SEO preferences."
-    href="/docs/basic-setup/setup"
+    subtitle="Solusi"
+    title="Posisi Travellings.id"
+    description="Jaringan relay + direktori kurasi untuk blog teknis dan portofolio developer Indonesia."
+    href="#12-posisi-travellingsid"
   />
   <Card
-    subtitle="Support"
-    title="Rubix Studios"
-    description="Backed by Australia's leading branding, marketing, and development studio."
-    href="https://rubixstudios.com.au"
+    subtitle="Komunitas"
+    title="NLFTs Ecosystem"
+    description="Dinaungi oleh NLFTs dengan semangat ruang privat dan kualitas non-kompromi."
+    href="https://github.com/nlfts"
     external={true}
   />
 </CardGrid>
 
-## Why use Documents?
+## 1.1 Masalah yang Direspons
 
-This kit was built to simplify how teams manage and publish documentation. It works across projects of all sizes—from a single 
-readme to enterprise knowledge bases.
+**Travellings.cn (开往)** di Tiongkok lahir dari keresahan yang sangat spesifik: era blog pribadi dan *friend-link* (tukar tautan antar situs) meredup karena trafik dimonopoli platform besar (media sosial, mesin pencari, agregator). Mereka membangun ulang budaya itu lewat mekanisme "lompat acak" antar situs anggota — sederhana secara teknis, tapi kuat secara nilai: trafik yang didesentralisasi, kurasi manusia, dan kepemilikan penuh atas identitas digital seseorang.
 
-With MDX, reusable components, and Tailwind styling, it keeps your workflow efficient without compromising flexibility.
+Konteks Indonesia sedikit berbeda tapi masalahnya paralel:
 
-Use it for:
+- **Identitas Tersebar:** Developer Indonesia banyak yang aktif di GitHub, Twitter/X, LinkedIn — tapi jarang yang punya blog atau portofolio pribadi yang hidup dan saling terhubung. Identitas developer tersebar di platform pihak ketiga, bukan dimiliki sendiri.
+- **Karya Tenggelam:** Showcase karya (proyek open source, eksperimen, tulisan teknis) tenggelam di linimasa, tidak punya "rumah" permanen yang mudah ditemukan orang lain.
+- **Kekosongan Direktori:** Belum ada direktori/komunitas yang secara eksplisit merawat dokumentasi dan pustaka JS/TS buatan developer Indonesia — padahal ekosistem sudah tumbuh (NestJS, Nuxt, custom tooling, dsb, terlihat jelas dari aktivitas NLFTs).
 
-- **Product Guides** – Setup, usage, and troubleshooting
-- **Internal Docs** – Processes, policies, and team references
-- **Technical Manuals** – APIs, SDKs, architecture walkthroughs
+## 1.2 Posisi Travellings.id
 
-Customize the UI and structure to match your brand or workflow—no lock-in.
+Travellings.id adalah **jaringan relay + direktori** untuk blog, portofolio, dan pustaka JavaScript/TypeScript milik developer Indonesia — tertutup (kurasi manual, Indonesia-only), dirawat komunitas, dan dibangun di atas stack modern (NestJS, Angular, Next.js).
 
-## Core Features
+### Perbedaan Kunci dari Versi Asli Tiongkok
 
-| Feature                              | Description                                                                 |
-| ------------------------------------ | --------------------------------------------------------------------------- |
-| **Write in Markdown/MDX**            | Combine Markdown with components and Mermaid.js for rich content.           |
-| **Flexible Navigation**              | Multi-level menus, page hierarchy, and auto-generated TOCs.                 |
-| **Code Support**                     | Syntax highlighting, code tabs, and one-click copy.                         |
-| **Search**                           | Fuzzy matching with highlight and instant results.                          |
-| **Responsive Design**                | Built-in light/dark mode with mobile support.                               |
-| **Math + Tables**                    | LaTeX rendering and clean table styling.                                    |
-| **SEO Defaults**                     | Preconfigured meta, Open Graph, and structured data.                        |
-| **AI Docs (Upcoming)**               | AI tools for smart search and content generation (coming soon).             |
+| Aspek | Travellings.cn (Asli) | Travellings.id (Adaptasi) |
+| :--- | :--- | :--- |
+| **Cakupan Konten** | Blog pribadi umum, lintas topik | Fokus: blog teknis, portofolio developer, showcase proyek |
+| **Tambahan Nilai** | Webring murni | + Direktori pustaka JS/TS buatan lokal + dokumentasi |
+| **Keterbukaan** | Publik, siapa saja bisa gabung setelah lolos review | Tertutup: Indonesia-only, kurasi lebih ketat (identitas jelas, kualitas konten) |
+| **Stack Teknis** | VitePress (statis) | NestJS (API) + Angular (aplikasi utama/relay) + Next.js (docs/wiki/blog/list) |
+| **Induk Organisasi** | Proyek independen | Dinaungi NLFTs sebagai instansi/komunitas induk |
 
-## Using This Kit
+> 💡 **Insight Brand Penting**
+> Sifat "tertutup" di sini bukan berarti eksklusif secara elitis, tapi **kurasi demi kualitas dan rasa aman komunitas**. Ini mirip semangat *"私域"* (ruang privat) yang juga muncul di NLFTs ("Ruang diskusi private, non-kompromi"). Nada brand harus tetap hangat dan mengundang, bukan angkuh.
 
-Navigation is on the left. Pages flow from setup to advanced features, but you're free to jump around.
+## Menggunakan Dokumentasi Ini
 
-Use the table of contents on the right to skip through sections.
+Navigasi berada di sebelah kiri. Alur halaman bergerak dari fondasi brand hingga implementasi teknis, namun Anda bebas melompat ke bagian mana pun.
 
-Start with the [Installation Guide](/docs/basic-setup/installation).
+Gunakan tabel konten di sebelah kanan untuk melewati bagian tertentu.
 
-## Community Support
+Mulailah dengan memahami **[Nama, Tagline, dan Narasi Asal](/docs/basic-setup/installation)**.
 
-Got questions? Reach out via:
+## Dukungan Komunitas
 
-- [GitHub](https://github.com/rubixvi/rubix-documents)
-- [Twitter](https://x.com/rubixstory)
-- [Facebook](https://www.facebook.com/rubixstudios)
+Punya pertanyaan mengenai arah brand atau teknis integrasi? Hubungi kami melalui:
+
+- [GitHub Issues](https://github.com/nlfts/travellings.id/issues)
+- [Diskusi NLFTs](https://github.com/nlfts)
+- [Email Kontak](mailto:nafismuhammad277@gmail.com)
